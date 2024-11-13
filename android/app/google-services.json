@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "642383347861",
+    "project_id": "estoree-6ab07",
+    "storage_bucket": "estoree-6ab07.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642383347861:android:dab2a3d96abb1f96689b9c",
+        "android_client_info": {
+          "package_name": "com.example.e_store_customer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIVSeSsem35DuYXm8HMIFR1dySyQpkFU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642383347861:android:5ef1ed1f0dec1458689b9c",
+        "android_client_info": {
+          "package_name": "com.example.estoree"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIVSeSsem35DuYXm8HMIFR1dySyQpkFU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
