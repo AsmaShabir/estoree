@@ -31,7 +31,7 @@ class _homeScreenState extends State<homeScreen> {
 
     SalomonBottomBarItem(
         icon: Icon(Icons.shopping_cart),
-        title: Text('CART'),
+        title: Text('Cart'),
         selectedColor: Colors.green),
 
 
