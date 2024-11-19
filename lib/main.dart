@@ -3,6 +3,7 @@
 
 import 'package:estoree/utils/routes/routes.dart';
 import 'package:estoree/utils/routes/routes_name.dart';
+import 'package:estoree/view/NavigationScreens/homeScreen.dart';
 import 'package:estoree/view/auth/signupView.dart';
 import 'package:estoree/view/bottomNavigationBar/bottomNavigationBar.dart';
 import 'package:estoree/view_model/auth_view_model.dart';
@@ -50,11 +51,11 @@ class MyApp extends StatelessWidget {
             } else if (snapshot.hasData) {
               return bottomNavigationBar();
             } else {
-              return  signup();
+              return  HomeScreen();
             }
           },
         ),
-        initialRoute: routesName.splash,
+        initialRoute: routesName.home,
         onGenerateRoute: routes.generateRoute,
       ),
     );

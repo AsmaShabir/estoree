@@ -17,7 +17,7 @@ class _homeScreenState extends State<bottomNavigationBar> {
 
 
   final List<Widget> _screens = [
-    homeScreen(),
+    HomeScreen(),
     categoryScreen(),
     cartScreen(),
     profileScreen()

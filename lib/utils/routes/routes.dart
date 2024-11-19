@@ -18,7 +18,7 @@ class routes{
       case routesName.login:
         return MaterialPageRoute(builder: (BuildContext context)=>loginView());
       case routesName.home:
-        return MaterialPageRoute(builder: (BuildContext context)=>homeScreen());
+        return MaterialPageRoute(builder: (BuildContext context)=>HomeScreen());
     // case routesName.shimmerLoading:
     //   return MaterialPageRoute(builder: (BuildContext context)=>dataLoading());
     // case routesName.sentryproj:
