@@ -7,7 +7,6 @@ import 'package:provider/provider.dart';
 import '../../utils/routes/routes_name.dart';
 import '../../utils/utils.dart';
 import '../../view_model/auth_view_model.dart';
-import '../home_screen.dart';
 import 'login_view.dart';
 
 
