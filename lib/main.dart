@@ -3,6 +3,7 @@
 
 import 'package:estoree/utils/routes/routes.dart';
 import 'package:estoree/utils/routes/routes_name.dart';
+import 'package:estoree/view/NavigationScreens/homeScreen.dart';
 import 'package:estoree/view/auth/signupView.dart';
 import 'package:estoree/view/home_screen.dart';
 import 'package:estoree/view_model/auth_view_model.dart';

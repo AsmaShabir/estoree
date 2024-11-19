@@ -1,17 +1,10 @@
 
-
-
-
-
-
 import 'package:estoree/utils/routes/routes_name.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:estoree/view/NavigationScreens/homeScreen.dart';
 import 'package:flutter/material.dart';
-
-
 import '../../view/auth/login_view.dart';
 import '../../view/auth/signupView.dart';
-import '../../view/home_screen.dart';
+
 import '../../view/splash_screen.dart';
 
 class routes{
