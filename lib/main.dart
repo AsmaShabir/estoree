@@ -5,6 +5,7 @@ import 'package:estoree/utils/routes/routes.dart';
 import 'package:estoree/utils/routes/routes_name.dart';
 import 'package:estoree/view/NavigationScreens/homeScreen.dart';
 import 'package:estoree/view/auth/signupView.dart';
+import 'package:estoree/view/bottomNavigationBar/bottomNavigationBar.dart';
 import 'package:estoree/view/home_screen.dart';
 import 'package:estoree/view_model/auth_view_model.dart';
 import 'package:estoree/view_model/services/auth_services.dart';
@@ -49,7 +50,7 @@ class MyApp extends StatelessWidget {
             if (snapshot.connectionState == ConnectionState.waiting) {
               return Center(child: CircularProgressIndicator());
             } else if (snapshot.hasData) {
-              return homeScreen();
+              return bottomNavigationBar();
             } else {
               return  signup();
             }
